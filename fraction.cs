@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Lab_1
 {
-    public class fraction
+    public class fraction : IComparable
     {
+        
+
+
+        
         private int numerator;
         private int denominator;
         //constructors
