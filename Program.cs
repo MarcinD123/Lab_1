@@ -6,7 +6,19 @@ namespace Lab_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            fraction a = new fraction(2, 3);
+            fraction b = new fraction(2, 6);
+            fraction c = a + b;
+
+            //Console.WriteLine(a);
+            //Console.WriteLine(a.ToString());
+
+
+
+            Console.WriteLine(c);
+
+
+            Console.WriteLine("test");
         }
     }
 }
