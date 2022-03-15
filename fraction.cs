@@ -6,14 +6,19 @@ using System.Threading.Tasks;
 
 namespace Lab_1
 {
-    public class fraction : IComparable
+    public class fraction : IComparable<fraction>
     {
         
-
+        public int CompareTo(fraction other)
+        {
+            if (other == null) return 0;
+            else return 1;
+        }
 
         
         private int numerator;
         private int denominator;
+        
         //constructors
         public fraction(int numerator, int denominator)
         {
