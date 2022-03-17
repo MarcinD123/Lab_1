@@ -17,16 +17,16 @@ namespace Lab_1
             //bool x;
             //x = fractarray[0].Equals(fractarray[1]);
             //Console.WriteLine(x);
-            
+
             //Console.WriteLine(a);
             //Console.WriteLine(a.ToString());
 
 
 
-            Console.WriteLine(c.ToString());
+            //Console.WriteLine(c.ToString());
 
 
-            Console.WriteLine("test");
+            //Console.WriteLine("test");
         }
     }
 }
